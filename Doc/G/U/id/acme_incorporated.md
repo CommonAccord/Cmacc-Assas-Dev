@@ -18,6 +18,8 @@ Register.Adr.=[G/U/at/US/DE/New_Castle/Wilmington/Geo]
 
 Register.Agent.=[G/U/id/the_corporation_company.md]
 
+FR.Adr.2={Adr.City}, {Adr.State} {Adr.Zip}
+
 Personality.type=corporation
 
 FR.Personality.type="corporation"

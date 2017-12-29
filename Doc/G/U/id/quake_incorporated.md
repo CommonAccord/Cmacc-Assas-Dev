@@ -18,7 +18,9 @@ Fax=1.650.555.5511
 
 FR.Capital.All=Trois cents milles dollars US
 
-FR.Personality.type="corporation" à liabilité limitée de Delaware
+FR.Personality.type="corporation" à responsabilité limitée de Delaware
+
+FR.Adr.2={Adr.City}, {Adr.State} {Adr.Zip}
 
 Personality.type=Delaware LLC
 
@@ -41,4 +43,3 @@ Notice.Title=Vice President
 PL.Register.Adr.Nation=Stany Zjednoczone Ameryki
 
 PL.Adr.Nation=Stany Zjednoczone Ameryki
-

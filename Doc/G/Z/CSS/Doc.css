@@ -5,15 +5,15 @@ body {
 }
 
 li {
-padding: 8px 0px 8px 0px;
+padding: 0px 0px 8px 0px;
 }
 
 .paras {
-padding: 10px 0px 10px 0px;
+padding: 3px 0px 3px 0px;
 }
 
 .paras li {
-padding: 10px 0px 10px 0px;
+padding: 3px 0px 3px 0px;
 }
 
 span { 

@@ -2,25 +2,9 @@ Doc.GUID=Acme-Quake-doc001
 
 DateEffective.YMD=2017-12-29
 
-/=Les parties  Acme :
+/=Les parties :
 
-P1.=[G/U/id/acme_incorporated.md]
-
-/=Acme est definé comme " Client ". Dans l'accord, il y a references au Client, du Client, etc. 
-
-P1.Handle=Client
-
-P1.=[G/FR-Grammaire-CmA/Handle-Le.md]
-
-/= Quake :
-
-P2.=[G/U/id/quake_incorporated.md]
-
-/=Acme est definé comme " Société ". Dans l'accord, il y a references à la Société, de la Société, etc. 
-
-P2.Handle=Société
-
-P2.=[G/FR-Grammaire-CmA/Handle-La.md]
+P=[G/CabinetBondard-FR-NDA-CmA/Demo/Acme-Quake-Infos.md]
 
 /=Les informations :
 

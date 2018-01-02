@@ -16,8 +16,6 @@ my $orig;
 
 my $filelist = "";
 
-my $counter = 0;
-
 sub parse {
 	
 	my($file,$root,$part) = @_; my $f;
@@ -63,8 +61,8 @@ sub parse_root {
 			else {
 				$root = parse($path.$what, $newfield || $field, $part);
 			}
-	$filelist = $filelist . "<br><br>". $counter . ":  [" . $what. "] ". $field . " = " . $root ;
-			$counter = $counter+1;
+	$filelist = $filelist . "<br><br>[" . $what. "]";
+
 			return $root if $root;
 		}
 	      }
@@ -91,9 +89,9 @@ foreach( $$field =~ /\{([^}]+)\}/g ) {
 
 
 my $output  = parse($ARGV[0], "Model.Root");
-print $output;
+# print $output . "\n\n" . $filelist;
 
-# print "\n\n" . $filelist;
+print $output;
 
 #clean up the temporary files (remote fetching)
 `rm $_` for values %remote;
